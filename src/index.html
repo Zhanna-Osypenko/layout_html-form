@@ -10,8 +10,8 @@
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
-    <h1>HTML Form</h1>
+  <body>  
+      
     <script type="text/javascript" src="./main.js"></script>
 
     <form 
@@ -19,8 +19,8 @@
       method="post"
     >
       <!-- /*Personal information*/ -->
-      <fieldset>
-        <legend>Personal information</legend>
+      <fieldset class="fieldset">
+        <legend class="legend">Personal information</legend>
 
         <label class="form-field"> 
           Surname:
@@ -75,8 +75,8 @@
       </fieldset>
       
       <!-- /*Registration*/ -->
-      <fieldset>
-        <legend>Registration</legend>
+      <fieldset class="fieldset">
+        <legend class="legend">Registration</legend>
 
         <label class="form-field"> 
           Email:
@@ -102,8 +102,8 @@
       </fieldset>
       
       <!-- /*An interesting fact about you!*/ -->
-      <fieldset>
-        <legend>An interesting fact about you!</legend>
+      <fieldset class="fieldset">
+        <legend class="legend">An interesting fact about you!</legend>
 
         <div class="form-field"> 
           Do you love cats?
@@ -151,10 +151,13 @@
         
         <label class="form-field">
           What are your favorite brand of cars?
-          <select name="car" value="multiplе">
-            <option value="car">BMW</option>
-            <option value="car">Audi</option>
-            <option value="car">Lada</option>
+          <select name="car" 
+              value="multiplе" size="4">
+            <option value="#bmv">BMW</option>
+            <option value="#audi">Audi</option>
+            <option value="#lada">Lada</option>
+            <option value="required" 
+              disabled selected></option>
           </select>
         </label>
   
@@ -172,8 +175,8 @@
       </fieldset>
 
       <!-- /*Additional info*/ -->
-      <fieldset>
-        <legend>Additional info</legend>
+      <fieldset class="fieldset">
+        <legend class="legend">Additional info</legend>
 
         <label>
           Comments:

@@ -1,13 +1,18 @@
-/* styles go here */
+.fieldset {
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding: 0 10px 2px;
+  /* background-color: rgb(127, 237, 49); */
+}
+
 .form-field {
   display: block;
-  margin-top: 10px;
+  margin: 10px 0;
+  /* background-color: rgb(251, 185, 110); */
 }
 
-legend {
-  margin-bottom: 20px;
-}
-
-label {
-  margin: 10px;
+.legend {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  /* background-color: rgb(113, 155, 240); */
 }
